@@ -6,5 +6,19 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 </style>
